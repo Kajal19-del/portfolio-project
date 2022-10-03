@@ -12,6 +12,9 @@
 - HTML5 semantic tags
 - Git, Github and Visual Studio Code
 
+## Live Demo
+https://kajal19-del.github.io/portfolio-project/
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
