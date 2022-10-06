@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Kajal full-stack webdeveloper</title>
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
@@ -60,7 +60,7 @@
   <main class="container-main">
     <section class="section-label">
        <img class="portfolios" src="./img/Portfolio1.png" alt="Portfolio1">
-       <img class="desk-img" src="./img/Desktop1.png" alt="desk-img">
+       <img class="desk-img" src="./img/Desktop1.png" alt="desktop1-view">
        <div class="label-inside">
 
          <h2 class="section-title">Tonic</h2>
@@ -86,8 +86,8 @@
     </section>
 
       <section class="section-label desk-content">
-        <img class="portfolios" src="./img/Portfolio2.png" alt="Portfolio1">
-        <img class="desk-img" src="./img/Desktop2.png" alt="desk-img">
+        <img class="portfolios" src="./img/Portfolio2.png" alt="Portfolio2">
+        <img class="desk-img" src="./img/Desktop2.png" alt="desktop2-view">
         <div class="label-inside">
 
         <h2 class="section-title">Multi-Post <br class="line-break"> Stories  </h2>
@@ -113,8 +113,8 @@
     </section>
 
       <section class="section-label">
-        <img class="portfolios" src="./img/Portfolio3.png" alt="Portfolio1">
-        <img class="desk-img" src="./img/Desktop3.png" alt="desk-img">
+        <img class="portfolios" src="./img/Portfolio3.png" alt="Portfolio3">
+        <img class="desk-img" src="./img/Desktop3.png" alt="desktop3-view">
         <div class="label-inside">
 
         <h2 class="section-title desk-none">Tonic</h2>
@@ -141,8 +141,8 @@
     </section>
 
     <section class="section-label desk-content">
-      <img class="portfolios" src="./img/Portfolio4.png" alt="Portfolio1">
-      <img class="desk-img" src="./img/Desktop-4.png" alt="desk-img">
+      <img class="portfolios" src="./img/Portfolio4.png" alt="Portfolio4">
+      <img class="desk-img" src="./img/Desktop-4.png" alt="desktop4-view">
       <div class="label-inside">
 
       <h2 class="section-title desk-none">Multi-Post <br class= "line-break"> Stories </h2>
@@ -218,7 +218,7 @@
           <p class="skill-name">HTML</p>
         </li>
         <li class="skill-item">
-          <img class="skill-icon" src="./img/css.png" alt="html">
+          <img class="skill-icon" src="./img/css.png" alt="css">
           <p class="skill-name">CSS</p>
         </li>
       </ul>
@@ -241,9 +241,14 @@
       <p class="contact-text">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it </p>
       <div class="form">
         <form action="https://formspree.io/f/mjvzwnzn" method="POST">
-          <input class="form-input" type="text" placeholder="Enter your name" maxlength="30" required>
-          <input class="form-input" type="email" placeholder="Enter your Email" required>
-          <textarea class="form-textarea" name="area" id="" cols="30" rows="6" maxlength="500" placeholder="Write your message here" required></textarea>
+          <label for="form-name">Name:</label>
+          <input class="form-input" type="text" name="Name" placeholder="Enter your name" maxlength="30" required id="form-name">
+          
+          <label for="form-email">Email:</label>
+          <input class="form-input" type="email" placeholder="Enter your Email" required id="form-email">
+          
+          <label for="textarea">messsage:</label>
+          <textarea class="form-textarea" name="area" id="" cols="30" rows="6" maxlength="500" placeholder="Write your message here" required id="textarea"></textarea>
           <button class="form-button" type="submit">Get in touch</button>
         </form>
       </div>
